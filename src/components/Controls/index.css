@@ -1,0 +1,15 @@
+.controls {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 2rem;
+  user-select: none;
+}
+
+.controls p {
+  margin: 0;
+}
+
+.controls dl {
+  margin: 0;
+}

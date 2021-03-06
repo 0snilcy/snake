@@ -1,0 +1,8 @@
+.row {
+  display: flex;
+  user-select: none;
+}
+
+.row:last-child {
+  border-bottom: 1px solid #ccc;
+}

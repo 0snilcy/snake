@@ -1,0 +1,21 @@
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:not(:last-child) {
+  border-right: none;
+}
+
+.snake {
+  background-color: #8bc34a;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
